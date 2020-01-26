@@ -1,0 +1,50 @@
+.content_text span{
+  border-bottom: 2px black solid;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+}
+.content_text p{
+  font-size: 25px;
+}
+section.photo{
+  padding: 50px 0;
+}
+.photo_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo_list .photo_item{
+  margin: 10px 1%;
+  display: flex;
+  align-items: center;
+}
+.photo_item img{
+  width: 400px;
+  min-width: 300px;
+  max-height: 500px;
+}
+.comment{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+.comment-img{
+  width: 200px;
+  border-radius: 50%;
+}
+.comment-text{
+  font-size: 20px;
+}
+.text-message{
+}
+.text-name{
+  font-style: italic;
+  text-align: right;
+  font-weight: 600;
+}
