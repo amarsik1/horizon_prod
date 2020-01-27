@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .video_list{
   display: flex;
   flex-direction: row;
@@ -62,7 +65,6 @@ a.active{
   margin: 0;
   text-transform: uppercase;
   font-weight: bold;
-  color: #e74c3c;
 }
 .list__desc{
   font-size: 20px;
